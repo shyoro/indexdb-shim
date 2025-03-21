@@ -61,4 +61,4 @@ npm test
 Contributions, suggestions, and improvements are welcome! Please open an issue or submit a pull request on GitHub.
 
 ## License
-This project is licensed under the ISC License.
+This project is licensed under the Apache-2.0 License.
