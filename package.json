@@ -1,16 +1,24 @@
 {
   "name": "indexdb-shim",
   "version": "1.0.0",
-  "description": "IndexDB shim with async storage API",
+  "description": "IndexedDB shim with async storage API",
   "type": "module",
   "main": "./dist/indexdb-shim.cjs",
   "module": "./dist/indexdb-shim.js",
   "types": "./dist/async-storage.d.ts",
+  "homepage": "https://github.com/shyoro/indexdb-shim#readme",
   "exports": {
     ".": {
       "import": "./dist/indexdb-shim.js",
       "require": "./dist/indexdb-shim.cjs"
     }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/shyoro/indexdb-shim.git"
+  },
+  "bugs": {
+    "url": "https://github.com/shyoro/indexdb-shim/issues"
   },
   "scripts": {
     "build": "vite build",
@@ -18,6 +26,8 @@
     "test": "vitest run",
     "prepublishOnly": "npm run build"
   },
+  "author": "SHYORO <shyoro@gmail.com>",
+  "license": "Apache-2.0",
   "files": [
     "dist"
   ],
@@ -31,8 +41,6 @@
     "shim",
     "localStorage"
   ],
-  "author": "shyoro",
-  "license": "ISC",
   "devDependencies": {
     "@types/node": "^22.13.11",
     "@typescript-eslint/eslint-plugin": "^8.27.0",
