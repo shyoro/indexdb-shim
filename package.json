@@ -1,6 +1,6 @@
 {
   "name": "indexdb-shim",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "IndexedDB shim with async storage API",
   "type": "module",
   "main": "./dist/indexdb-shim.cjs",
