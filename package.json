@@ -1,6 +1,7 @@
 {
   "name": "indexdb-shim",
   "version": "1.0.0",
+  "description": "IndexDB shim with async storage API",
   "type": "module",
   "main": "./dist/indexdb-shim.cjs",
   "module": "./dist/indexdb-shim.js",
@@ -32,7 +33,6 @@
   ],
   "author": "shyoro",
   "license": "ISC",
-  "description": "",
   "devDependencies": {
     "@types/node": "^22.13.11",
     "@typescript-eslint/eslint-plugin": "^8.27.0",
