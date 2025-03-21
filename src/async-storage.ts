@@ -1,7 +1,7 @@
 /**
  * A simple asynchronous storage wrapper using IndexedDB.
  */
-export class AsyncStorage {
+export default class AsyncStorage {
   private readonly dbName: string;
   private readonly storeName: string;
   private db: IDBDatabase | null;
@@ -32,6 +32,7 @@ export class AsyncStorage {
         this.db = (event.target as IDBOpenDBRequest).result;
         resolve(this.db);
       };
+      
       request.onerror = () => reject(request.error);
     });
   }
