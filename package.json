@@ -41,6 +41,9 @@
     "shim",
     "localStorage"
   ],
+  "engines": {
+    "node": ">=20"
+  },
   "devDependencies": {
     "@types/node": "^22.13.11",
     "@typescript-eslint/eslint-plugin": "^8.27.0",
