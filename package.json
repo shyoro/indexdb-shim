@@ -1,6 +1,6 @@
 {
   "name": "indexdb-shim",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "IndexedDB shim with async storage API",
   "type": "module",
   "main": "./dist/indexdb-shim.cjs",
@@ -9,6 +9,7 @@
   "homepage": "https://github.com/shyoro/indexdb-shim#readme",
   "exports": {
     ".": {
+      "types": "./dist/indexdb-shim.d.ts",
       "import": "./dist/indexdb-shim.js",
       "require": "./dist/indexdb-shim.cjs"
     }
